@@ -1,0 +1,26 @@
+footer {
+    padding: 3.2rem;
+    text-align: center;
+    background-color: var(--btn-color); /* Ensure this has enough contrast */
+    margin-top: auto;
+    color: #ffffff; /* Set to white or another contrasting color */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #ffffff; /* Set link color to ensure visibility */
+    text-decoration: none; /* Optional: removes underline from links */
+    margin: 0 0.5rem; /* Adds some space between the links */
+  }
+  
+  footer a:hover {
+    background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  footer .fa {
+    margin-right: 1rem; /* Adds some space between the icon and the text */
+  }
